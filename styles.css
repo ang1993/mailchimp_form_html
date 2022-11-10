@@ -1,0 +1,136 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.6rem;
+}
+
+a {
+    color: #007c89;
+    text-decoration: none;
+}
+
+.content{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image_box {
+display: inline-block;
+width: 29%;
+}
+
+#mailchimp_img {
+    width: 180px;
+    position: absolute;
+    top: 30px;
+}
+
+/* Form */
+
+.form_box {
+    display: inline-block;
+    width: 70%;
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 + p, .a_big {
+    font-size: 1.1rem;
+}
+
+fieldset {
+    padding: 10px 0;
+    border: none;
+}
+
+
+.show_pswd_box{
+    display: inline-block;
+    float: right;
+    color: #007c89;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.fa-eye {
+    padding: 0 8px;
+}
+
+.label_black {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+input[type=email], [type=password], [type=text] {
+    display: block;
+    width: 100%;
+    padding: 9px;
+    margin: 4px 0 20px 0;
+    border: 1px solid #bdbbb9;
+    border-radius: 2px;
+}
+
+li::marker {
+    color: #007c89;
+    font-size: 2rem;
+}
+
+.pass_conditions {
+    column-count:2;
+}
+
+.check_submit_global {
+    padding: 15px 0;
+    margin: 0;
+    position: relative;
+}
+
+.submit_box{
+    width: 30%;
+    display: inline-block;
+}
+
+input[type=submit] {
+    font-size: 1.3rem;
+    color:#bfbdbb;
+    padding: 12px 45px;
+    border: 1px solid #bfbdbb;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.checkbox_box{
+    width: 69%;
+    display: inline-block;
+    position: absolute;
+}
+
+.check_box{
+    display: inline-block;
+    width: 20%;
+}
+
+.label_box{
+    width: 70%;
+    display: inline-block;
+    position: absolute;
+}
+
+
+input[type="checkbox"]{
+    margin: 0 35px;
+    width: 25px;
+    height: 25px;
+    border-radius: 20%;
+    border: 1px solid #bfbdbb;
+}
+
+fieldset:last-child a {
+    text-decoration: underline;
+}
+
